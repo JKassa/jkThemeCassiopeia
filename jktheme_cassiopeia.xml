@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="4.0" type="file" method="upgrade">
+    <name>files_jktheme_cassiopeia</name>
+    <author>GeneticsPro</author>
+    <creationDate>May 2025</creationDate>
+    <copyright>(C) 2008 GeneticsPro | Eugene Galchuk. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>admin@geneticspro.net</authorEmail>
+    <authorUrl>www.geneticspro.net</authorUrl>
+    <version>5.3.1</version>
+    <description>FILES_JKTHEME_CASSIOPEIA_XML_DESCRIPTION</description>
+    <fileset>
+        <files target="jkassathemes" folder="jkassathemes">
+            <folder>jktheme_cassiopeia</folder>
+        </files>
+		<files target="media" folder="media">
+            <folder>files_jktheme_cassiopeia</folder>
+        </files>
+    </fileset>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/files_jktheme_cassiopeia.ini</language>
+        <language tag="en-GB">en-GB/files_jktheme_cassiopeia.sys.ini</language>
+        <language tag="ru-RU">ru-RU/files_jktheme_cassiopeia.ini</language>
+        <language tag="ru-RU">ru-RU/files_jktheme_cassiopeia.sys.ini</language>
+        <language tag="uk-UA">uk-UA/files_jktheme_cassiopeia.ini</language>
+        <language tag="uk-UA">uk-UA/files_jktheme_cassiopeia.sys.ini</language>
+    </languages>
+	<changelogurl>https://jkassa.com/index.php?option=com_jkadmin&amp;view=extension&amp;format=xml&amp;name=files_jktheme_cassiopeia&amp;jversion=4&amp;changelog=1</changelogurl>
+    <updateservers>
+        <server
+			type="extension"
+			priority="1"
+			name="JKTheme - Cassiopeia"
+		>
+			https://jkassa.com/index.php?option=com_jkadmin&amp;view=extension&amp;format=xml&amp;name=files_jktheme_cassiopeia
+		</server>
+    </updateservers>
+</extension>
